@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Awesome Caterer</title>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/OrderHistory.css">
+
+</head>
+
+<body>
+  <div class="header"></div>
+  <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+  <label for="openSidebarMenu" class="sidebarIconToggle">
+    <div class="spinner diagonal part-1"></div>
+    <div class="spinner horizontal"></div>
+    <div class="spinner diagonal part-2"></div>
+  </label>
+  <div id="sidebarMenu">
+    <ul class="sidebarMenuInner">
+      <li class="caterer">Olumide Ogundare <span>Caterer</span></li>
+      <li><a href="SetUpMenu.html">Setup Menu</a></li>
+      <li><a href="./orders.html" >Orders</a></li>
+      <li><a href="./Sales.html">Sales</a></li>
+      <li><a href="./OrderHistory.html">Order History</a></li>
+      <li><a href="#">Logout</a></li>
+    </ul>
+  </div>
+  <main>
+    <section class="page-section table">
+      <div class="table-head">
+        <ul class="table-head__list">
+          <li class="table-head__list-item">#ID</li>
+          <li class="table-head__list-item">Caterer</li>
+          <li class="table-head__list-item">Order Summary</li>
+          <li class="table-head__list-item">Order Date</li>
+          <li class="table-head__list-item">Order Total</li>
+        </ul>
+      </div>
+      <div class="table-body">
+        <div class="table-row">
+          <ul class="table-row__list">
+            <li class="table-row__list-item">1</li>
+            <li class="table-row__list-item">Jon Doe</li>
+            <li class="table-row__list-item">
+              <ul class="order-summary__list">
+                <li class="order-summary__list-item">
+                  <p>Bread and Beans</p>
+                  <span class="dash">-</span>
+                  <p>1</p>
+                </li>
+                <li class="order-summary__list-item">
+                  <p>Jollof Rice</p>
+                  <span class="dash">-</span>
+                  <p>2</p>
+                </li>
+              </ul>
+            </li>
+            <li class="table-row__list-item">24th Jan 2019</li>
+            <li class="table-row__list-item">$300.00</li>
+          </ul>
+        </div>
+        <div class="table-row">
+          <ul class="table-row__list">
+            <li class="table-row__list-item">2</li>
+            <li class="table-row__list-item">Jon Doe</li>
+            <li class="table-row__list-item">
+              <ul class="order-summary__list">
+                <li class="order-summary__list-item">
+                  <p>Bread and Beans</p>
+                  <span class="dash">-</span>
+                  <p>2</p>
+                </li>
+                <li class="order-summary__list-item">
+                  <p>Jollof Rice</p>
+                  <span class="dash">-</span>
+                  <p>1</p>
+                </li>
+                <li class="order-summary__list-item">
+                  <p>Bread and Beans</p>
+                  <span class="dash">-</span>
+                  <p>4</p>
+                </li>
+                <li class="order-summary__list-item">
+                  <p>Jollof Rice</p>
+                  <span class="dash">-</span>
+                  <p>2</p>
+                </li>
+              </ul>
+            </li>
+            <li class="table-row__list-item">24th Jan 2019</li>
+            <li class="table-row__list-item">$600.00</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+ 
+  
+</body>
+
+</html>
